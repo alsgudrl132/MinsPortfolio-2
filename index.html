@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Min's Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" type="images/png" href="img/m-logo.png" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <nav class="navbar">
+          <div class="logo">
+            <img src="img/m-logo.png" alt="프로필" />
+            <span>Min's Portfolio</span>
+          </div>
+          <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+          </ul>
+          <div class="theme-toggle">
+            <input type="checkbox" class="theme-switch" id="theme-switch" />
+            <label for="theme-switch" class="theme-label"></label>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section id="home" class="hero">
+        <div class="container">
+          <div class="hero-content">
+            <h1>
+              안녕하세요, 저는 신입 개발자
+              <span class="highlight">민형기</span>입니다
+            </h1>
+            <p>Full Stack Developer</p>
+            <div class="hero-cta">
+              <a href="#projects" class="btn btn-primary">프로젝트 보기</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="about-section">
+        <div class="container">
+          <div class="about-content" data-aos="fade-up">
+            <h2>About Me</h2>
+            <p>
+              혁신적인 웹 솔루션을 만들어가는 열정적인 개발자입니다. 사용자를
+              우선적으로 고려하여 효율적인 코드 구현에 중점을 둡니다.
+            </p>
+            <div class="personal-info-grid">
+              <div class="info-column">
+                <h3>Personal</h3>
+                <div class="info-item"><strong>이름:</strong> 민형기</div>
+                <div class="info-item">
+                  <strong>생년월일:</strong> 1997.02.14
+                </div>
+                <div class="info-item">
+                  <strong>연락처:</strong> 010-3020-9437
+                </div>
+                <div class="info-item">
+                  <strong>이메일:</strong> alsgudrl132@gmail.com
+                </div>
+              </div>
+              <div class="info-column">
+                <h3>Education & Career</h3>
+                <div class="info-item education">
+                  <strong>교육:</strong> 홍대에이콘아카데미
+                  <div class="sub-info">2023.03 ~ 2023.09</div>
+                  <div class="sub-info">
+                    자바 풀스택 & 빅데이터 AI 융합 개발자
+                  </div>
+                </div>
+                <div class="info-item career">
+                  <strong>경력:</strong> EBS 온라인클래스
+                  <div class="sub-info">2023.08 ~ 2023.12</div>
+                  <div class="sub-info">웹 유지보수(SM) 프로젝트</div>
+                  <div class="sub-info">Vue, Nuxt</div>
+                  <div class="sub-info">
+                    - 플랫폼 안정성 향상 및 신규 기능 개발
+                  </div>
+                  <div class="sub-info">- 부서간 협업을 통한 UI/UX 개선</div>
+                  <div class="sub-info">- 기획/디자인/백엔드팀과 협업 진행</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="skills-section">
+        <div class="container">
+          <h2>기술 스택</h2>
+          <div class="skills-grid">
+            <div class="skill-category">
+              <h3>Frontend</h3>
+              <div class="skill-icons">
+                <div class="skill-item">
+                  <img src="img/html.png" alt="HTML" />
+                  <span class="skill-label">HTML</span>
+                </div>
+                <div class="skill-item">
+                  <img src="img/css.png" alt="CSS" />
+                  <span class="skill-label">CSS</span>
+                </div>
+                <div class="skill-item">
+                  <img src="img/js.png" alt="JavaScript" />
+                  <span class="skill-label">JavaScript</span>
+                </div>
+                <div class="skill-item">
+                  <img src="img/jquery.png" alt="jQuery" />
+                  <span class="skill-label">jQuery</span>
+                </div>
+                <div class="skill-item">
+                  <img src="img/bootstrap.png" alt="Bootstrap" />
+                  <span class="skill-label">Bootstrap</span>
+                </div>
+                <div class="skill-item">
+                  <img src="img/react.png" alt="React" />
+                  <span class="skill-label">React</span>
+                </div>
+                <div class="skill-item">
+                  <img src="img/next.png" alt="Next.js" />
+                  <span class="skill-label">Next.js</span>
+                </div>
+                <div class="skill-item">
+                  <img src="img/vue.png" alt="Vue.js" />
+                  <span class="skill-label">Vue.js</span>
+                </div>
+                <div class="skill-item">
+                  <img src="img/nuxt.png" alt="Nuxt.js" />
+                  <span class="skill-label">Nuxt.js</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill-category">
+              <h3>Backend</h3>
+              <div class="skill-icons">
+                <div class="skill-item">
+                  <img src="img/java.png" alt="Java" />
+                  <span class="skill-label">Java</span>
+                </div>
+                <div class="skill-item">
+                  <img src="img/spring.png" alt="Spring" />
+                  <span class="skill-label">Spring</span>
+                </div>
+                <div class="skill-item">
+                  <img src="img/springboot.png" alt="Spring Boot" />
+                  <span class="skill-label">Spring Boot</span>
+                </div>
+                <div class="skill-item">
+                  <img src="img/jsp.png" alt="JSP" />
+                  <span class="skill-label">JSP</span>
+                </div>
+                <div class="skill-item">
+                  <img src="img/python.png" alt="Python" />
+                  <span class="skill-label">Python</span>
+                </div>
+                <div class="skill-item">
+                  <img src="img/mybatis.png" alt="MyBatis" />
+                  <span class="skill-label">MyBatis</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill-category">
+              <h3>Database/Deployment</h3>
+              <div class="skill-icons">
+                <div class="skill-item">
+                  <img src="img/oracle.png" alt="Oracle" />
+                  <span class="skill-label">Oracle</span>
+                </div>
+                <div class="skill-item">
+                  <img src="img/ec2.png" alt="AWS EC2" />
+                  <span class="skill-label">AWS EC2</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill-category">
+              <h3>Version Control</h3>
+              <div class="skill-icons">
+                <div class="skill-item">
+                  <img src="img/git.png" alt="Git" />
+                  <span class="skill-label">Git</span>
+                </div>
+                <div class="skill-item">
+                  <img src="img/github.png" alt="GitHub" />
+                  <span class="skill-label">GitHub</span>
+                </div>
+                <div class="skill-item">
+                  <img src="img/sourcetree.png" alt="SourceTree" />
+                  <span class="skill-label">SourceTree</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill-category">
+              <h3>Tools & Communication</h3>
+              <div class="skill-icons">
+                <div class="skill-item">
+                  <img src="img/notion.png" alt="Notion" />
+                  <span class="skill-label">Notion</span>
+                </div>
+                <div class="skill-item">
+                  <img src="img/slack.png" alt="Slack" />
+                  <span class="skill-label">Slack</span>
+                </div>
+                <div class="skill-item">
+                  <img src="img/figma.png" alt="Figma" />
+                  <span class="skill-label">Figma</span>
+                </div>
+                <div class="skill-item">
+                  <img src="img/sqldeveloper.png" alt="SQL Developer" />
+                  <span class="skill-label">SQL Developer</span>
+                </div>
+                <div class="skill-item">
+                  <img src="img/eclipse.png" alt="Eclipse" />
+                  <span class="skill-label">Eclipse</span>
+                </div>
+                <div class="skill-item">
+                  <img src="img/intelij.png" alt="IntelliJ" />
+                  <span class="skill-label">IntelliJ</span>
+                </div>
+                <div class="skill-item">
+                  <img src="img/pycharm.png" alt="PyCharm" />
+                  <span class="skill-label">PyCharm</span>
+                </div>
+                <div class="skill-item">
+                  <img src="img/trello.png" alt="Trello" />
+                  <span class="skill-label">Trello</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="projects-section">
+        <div class="container">
+          <h2>프로젝트</h2>
+          <div class="project-grid">
+            <div class="project-card" onclick="openModal('boardify')">
+              <img
+                src="img/boardify300.png"
+                alt="PillDex"
+                class="project-image"
+              />
+              <div class="project-content">
+                <h3 class="project-title">Boardify</h3>
+                <p class="project-description">
+                  협업 프로젝트 관리 도구입니다.
+                </p>
+                <div class="tech-stack">
+                  <span class="tech-tag">Vue</span>
+                  <span class="tech-tag">Nuxt</span>
+                  <span class="tech-tag">Supabase</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-card" onclick="openModal('efthelper')">
+              <img
+                src="img/efthelper300.png"
+                alt="EFT Helper"
+                class="project-image"
+              />
+              <div class="project-content">
+                <h3 class="project-title">EFT Helper</h3>
+                <p class="project-description">
+                  게임 정보 제공 웹사이트로, 실시간 마켓 데이터와 상세 아이템
+                  정보를 제공합니다.
+                </p>
+                <div class="tech-stack">
+                  <span class="tech-tag">React</span>
+                  <span class="tech-tag">Python</span>
+                  <span class="tech-tag">Flask</span>
+                  <span class="tech-tag">Oracle</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-card" onclick="openModal('blueocean')">
+              <img
+                src="img/blueocean300.png"
+                alt="Blue Ocean"
+                class="project-image"
+              />
+              <div class="project-content">
+                <h3 class="project-title">Blue Ocean</h3>
+                <p class="project-description">
+                  딥러닝 기반 주식 종목 추천 및 분석 서비스입니다.
+                </p>
+                <div class="tech-stack">
+                  <span class="tech-tag">Spring</span>
+                  <span class="tech-tag">Python</span>
+                  <span class="tech-tag">Flask</span>
+                  <span class="tech-tag">Oracle</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-card" onclick="openModal('pilldex')">
+              <img
+                src="img/pilldex300.png"
+                alt="PillDex"
+                class="project-image"
+              />
+              <div class="project-content">
+                <h3 class="project-title">PillDex</h3>
+                <p class="project-description">
+                  약품 정보 검색 및 근처 약국/병원 찾기 서비스입니다.
+                </p>
+                <div class="tech-stack">
+                  <span class="tech-tag">Spring</span>
+                  <span class="tech-tag">Java</span>
+                  <span class="tech-tag">Oracle</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="modals"></section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <p class="copyright">© 2024 Min Hyeong-gi. All Rights Reserved.</p>
+          <div class="social-links">
+            <a
+              href="https://github.com/alsgudrl132"
+              target="_blank"
+              class="social-link"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path
+                  d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"
+                />
+              </svg>
+              <span>GitHub</span>
+            </a>
+            <a href="mailto:alsgudrl132@gmail.com" class="social-link">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path
+                  d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"
+                />
+                <polyline points="22,6 12,13 2,6" />
+              </svg>
+              <span>Email</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
