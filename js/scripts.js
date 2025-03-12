@@ -341,7 +341,7 @@ const projectData = {
       "Vue.js와 Supabase 기반의 현대적인 협업 프로젝트 관리 웹 애플리케이션이며 트렐로를 참고하여 만들어봤습니다",
       "별도의 회원가입 없이 사용해보고 싶으시다면 아래의 접속 정보 보기를 사용하여 테스트 해보실 수 있습니다",
     ],
-    demo_url: "https://boardify.ddns.net/login",
+    demo_url: "https://mins-boardify.vercel.app/login",
     demo_credentials: {
       email: "test@test.com",
       password: "qwer1234!!",

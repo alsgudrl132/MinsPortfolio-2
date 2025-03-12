@@ -237,6 +237,9 @@ body.light-theme .projects-section {
   min-width: 100px;
   color: #888;
 }
+.info-item a {
+  color: #2d8cff;
+}
 
 .sub-info {
   margin-left: 100px;
